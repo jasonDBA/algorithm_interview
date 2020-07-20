@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alternating_Characters", "A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minimum_Absolute_Difference", "Minimum_Absolute_Difference\Minimum_Absolute_Difference.csproj", "{BD5EA38B-4337-492C-8693-30C70A166658}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find_Max_Min_Value", "Find_Max_Min_Value\Find_Max_Min_Value.csproj", "{D11A0D62-CDBE-4D7B-A8B4-DA63DD6C6807}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Find_Max_Min_Value", "Find_Max_Min_Value\Find_Max_Min_Value.csproj", "{D11A0D62-CDBE-4D7B-A8B4-DA63DD6C6807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Byte_by_Byte_Comparision", "Byte_by_Byte_Comparision\Byte_by_Byte_Comparision.csproj", "{584C0604-951D-4A24-8E2C-7DA515DE8A4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{D11A0D62-CDBE-4D7B-A8B4-DA63DD6C6807}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D11A0D62-CDBE-4D7B-A8B4-DA63DD6C6807}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D11A0D62-CDBE-4D7B-A8B4-DA63DD6C6807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{584C0604-951D-4A24-8E2C-7DA515DE8A4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{584C0604-951D-4A24-8E2C-7DA515DE8A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{584C0604-951D-4A24-8E2C-7DA515DE8A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{584C0604-951D-4A24-8E2C-7DA515DE8A4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
