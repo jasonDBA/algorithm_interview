@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Alternating_Characters/1.0.0": {
+        "runtime": {
+          "Alternating_Characters.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Alternating_Characters/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
