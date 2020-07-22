@@ -8,10 +8,16 @@ namespace Byte_by_Byte_Comparision
         // Question: What is the efficient way to see if two files are same?
         public static bool FileCompare(string file1, string file2)
         {
-            // A byte-by-byte comparision
+            // Answer: Will count the number of characters in each files
+            // One character is represented as one byte - Byte-by-byte comparision
+            
+            // How?
+            // 1. If we are using C#, we can use FileStream class to read a file as a byte array
+            // 2. Count the length of two arrays then compare it
+
             // Doing two simple checks
             // 1. File reference
-            // 2. The size of the two files
+            // 2. The number of characters in two files
 
             // Compare both file reference
             if(file1 == file2)
@@ -23,6 +29,7 @@ namespace Byte_by_Byte_Comparision
             // By reading their bytes
             
             // Open the two files
+            // FileStream returns a byte array
             FileStream fs1 = new FileStream(file1, FileMode.Open);
             FileStream fs2 = new FileStream(file2, FileMode.Open);
 
